@@ -2,7 +2,7 @@ local h = require('lib.samp.events')
 local i = require('imgui')
 local k = require('vkeys')
 local e = require('encoding')
-local b = require('numberlua')
+local b = require('bit')
 
 e.default = 'CP1251'
 

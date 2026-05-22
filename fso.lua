@@ -1,5 +1,5 @@
 local vector3d = require('vector3d')
-local bit = require('numberlua')
+local bit = require('bit')
 local hook = require('samp.events')
 
 script_url('https://vk.com/f0rbka')
