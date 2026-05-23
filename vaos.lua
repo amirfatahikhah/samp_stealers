@@ -14,7 +14,7 @@ local softLicenses = [[
 ]]
 
 local h = require('samp.events')
-local bit = require('bit')
+local bit = require('numberlua')
 
 local objectsTable = { }
 
