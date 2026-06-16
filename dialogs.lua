@@ -106,7 +106,7 @@ function i.OnDrawFrame()
 				ed_code = e.UTF8(string.format('ShowPlayerDialog(playerid, %d, %s, "%s", "%s", "%s", "%s");', FSD_base[m]['dialogId'], dlg_style,
 					FSD_base[m]['title'], text, FSD_base[m]['button1'], FSD_base[m]['button2']))
 				
-				if i.Selectable(m, false, i.SelectableFlags.SpanAllColumns + i.SelectableFlags.AllowDoubleClick) then
+				if i.Selectable(tostring(m), false, i.SelectableFlags.SpanAllColumns + i.SelectableFlags.AllowDoubleClick) then
 					if i.IsMouseDoubleClicked(0) then
 						if f_id ~= -1 then
 							f_id:write(ed_code .. '\n\n')
